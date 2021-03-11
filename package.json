@@ -1,0 +1,23 @@
+{
+  "name": "bulma-lazy",
+  "version": "0.1.0",
+  "description": "...",
+  "main": "bulma-lazy.sass",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanarana/bulma-lazy.git"
+  },
+  "keywords": [
+    "bulma",
+    "lazy"
+  ],
+  "author": "Jonathan Arana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanarana/bulma-lazy/issues"
+  },
+  "homepage": "https://github.com/jonathanarana/bulma-lazy#readme"
+}

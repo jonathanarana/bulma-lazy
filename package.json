@@ -1,10 +1,10 @@
 {
   "name": "bulma-lazy",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "description": "Collection of classes for Bulma.io",
-  "main": "bulma-lazy.sass",
+  "main": "bulma-lazy.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jonathanarana/bulma-lazy/issues"
   },
-  "homepage": "https://github.com/jonathanarana/bulma-lazy#readme"
+  "homepage": "https://github.com/jonathanarana/bulma-lazy#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
 }

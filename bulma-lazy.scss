@@ -1,0 +1,21 @@
+@use "bulma/sass/utilities" as *;
+
+@use "./scss/print" as *;
+@use "./scss/height" as *;
+@use "./scss/parallax" as *;
+@use "./scss/background-transparency" as *;
+
+//table-container
+.table-container {
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+// margen negativo
+.mt {
+  @for $i from 1 through 6 {
+    &--#{$i} {
+      margin-top: #{-$i*0.25}rem !important;
+    }
+  }
+}
